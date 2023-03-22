@@ -284,6 +284,15 @@ h1, h3, h4, h5, p {
   Primary header
   ========================================
 */
+.primary-header {
+  display: flex;
+}
+
+.header-info {
+  flex-flow: column wrap;
+  flex: 2;
+}
+
 .logo {
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
